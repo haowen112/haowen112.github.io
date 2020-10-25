@@ -1,103 +1,259 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap-social.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/95b7389cb5.js" crossorigin="anonymous"></script>
-    <title>Haowen Liu - Home</title>
-    <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-primary static-top">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">
-          <img src="Assets/terminal.svg" width="30" height="30" alt="" hspace="20">
-              Haowen Liu
-        </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/experience.css">
+
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <title>Haowen Liu's Page</title>
+
+    <!-- Navigation bar -->
+    <nav id="navbar-1" class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">Haowen Liu's Page</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="experiences.html">Experiences</a>
+          <a class="nav-link" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="skills.html">Skills</a>
+          <a class="nav-link" href="#skill">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link" href="#project">Projects</a>
         </li>
       </ul>
-    </div>
-  </div>
-</nav>
+    </nav>
   </head>
-  <body>
-    <div class="container"  >
-  <div class="row">
-    <!-- Name and photo -->
-    <div class="col-xl-6 col-md-9 mb-10" style="margin-top : 100px ">
-      <div class="card border-20 shadow">
-        <img src="Assets/image1.jpeg" class="card-img-top" alt="...">
-        <div class="card-body text-center">
-          <h5 class="card-title mb-0">Haowen Liu</h5>
-        </div>
-      </div>
-    </div>
-    <!-- About me -->
-    <div class="col-xl-6 col-md-9 mb-20" style="margin-top : 30px">
-      <div class="card border-30 shadow">
-        <div class="card-body text-center">
-          <h5 class="card-title" style = "font-size: 45px">About me</h5>
-          <div class="card-text text-black-50">
-            <p>
-              I am a senior at <a class="aboutme-link" href="https://www.osu.edu"> The Ohio State University </a>, majoring in computer and information science. Expected graduation date: <strong> May 2020</strong>
-            </p>
-            <p>
-              In the past year, I have been doing graph research with  <a class="aboutme-link" href="https://www.mustafahajij.com/">Dr. Mustafa Hajij</a> and published a <a class="aboutme-link" href="https://arxiv.org/pdf/1904.09639.pdf">paper</a>  about Persistent Homology on the Laplacian Eigenfunctions. I have also worked as a summer technology analyst at
-              <a class="aboutme-link" href="https://group.bnpparibas/en/">BNP Paribas</a> the past summer. During that time, I automated the department's monthly meeting process utilizing python.
-            </p>
-            <p>
-              I have also developed projects during my free time, you can view them <a class="aboutme-link" href="projects.html">here</a>.
-            </p>
+
+  <body style="position: relative;">
+
+    <div data-spy="scroll" data-target="#navbar-1" data-offset="0">
+      <!-- About me section -->
+      <div id="about-me" class="container">
+        <h1 style="padding-bottom: 20px;padding-top: 40px;">About me</h1>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+    		    <div class="card border-30 shadow profile-card-1">
+    		      <img src="Assets/teton.jpg" alt="profile-sample1" class="background"/>
+    		      <img src="Assets/headshot.jpg" alt="profile-image" class="profile"/>
+              <div class="card-content">
+                <h2>
+                  Haowen Liu
+                  <small>
+                    Technology Analyst
+                  </small>
+                </h2>
+                <div class="icon-block">
+                  <a href="https://www.linkedin.com/in/haowen-liu112/">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/haowen112">
+                    <i class="fa fa-github"></i>
+                  </a>
+                  <a href="Assets/resume.pdf">
+                    <i class="fa fa-file"></i>
+                  </a>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <div class="col-md-4">
+            <div class="card border-30 shadow">
+              <div class="card-body">
+                <h5 class="card-title" style = "font-size: 45px">Hi!</h5>
+                <div class="card-text text-black-50">
+                  <p>
+                    I graduated from <a class="aboutme-link" href="https://www.osu.edu"> The Ohio State University </a> with a degree in computer and information science on <strong> May 2020</strong>
+                  </p>
+                  <p>
+                    I now work at <a class="aboutme-link" href="https://group.bnpparibas/en/">BNP Paribas</a> as a technology analyst on a graduate rotational programs.
+                  </p>
+                  <p>
+                    This page serves as a profile page for my most up to date information. Take a look around!
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  <!-- Find me -->
-    <div class="col-xl-5 col-md-9 mb-20 text-right" style="margin-left : 615px; margin-top : -100px">
-      <div class="card border-20 shadow">
-        <div class="card-body text-center">
-          <h5 class="card-title" style = "font-size: 25px">Contact</h5>
 
-              <a class="btn btn-block btn-social btn-linkedin text-center" href="https://www.linkedin.com/in/haowen-liu112" >
-                <span class="fab fa-linkedin"></span> Find me on Linkedin at haowenliu-112
-              </a>
-              <a class="btn btn-block btn-social btn-google text-center" href="mailto: liuhaowen60@gmail.com" >
-                <span class="fab fa-google"></span> Email me at liuhaowen60@gmail.com
-              </a>
-              <a class="btn btn-block btn-social btn-github text-center" href="https://www.github.com/haowen112" >
-                <span class="fab fa-github"></span> Fork me on Github
-              </a>
-              <a class="btn btn-block btn-adn text-center" href="Assets/HaowenLiu_Resume.pdf" >View my resume</a>
+      <!-- Experience section -->
+      <div id="experience" class="container">
+        <h1 style="padding-bottom: 20px;padding-top: 40px;">Experiences</h1>
+        <div class="container">
+          <ul class="timeline">
+              <li>
+                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">BNP Paribas</h4>
+                    <p><i class="glyphicon glyphicon-time"></i> 07/2020 - Present</p>
+                  </div>
+                  <div class="timeline-body">
+                    <ul>
+                      <li>
+                        <p>Built interfaces for python scripts</p>
+                      </li>
+                      <li>
+                        <p>Automated Microsoft SharePoint utilizing SharePoint API</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">EduTechnologic</h4>
+                    <p><i class="glyphicon glyphicon-time"></i> 01/2020 - 05/2020</p>
+                  </div>
+                  <div class="timeline-body">
+                    <ul>
+                      <li>
+                        <p>UI/UX design for Android mobile and wearable search application using java.</p>
+                      </li>
+                      <li>
+                        <p>Utilizing open source search platform (Elasticsearch).</p>
+                      </li>
+                      <li>
+                        <p>Develop in an Agile environment utilizing SCRUM with tools such as Trello, Slack, andGIT.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-badge danger"><i class="glyphicon glyphicon-check"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">BNP Paribas</h4>
+                    <p><i class="glyphicon glyphicon-time"></i> 05/2019 - 08/2019</p>
+                  </div>
+                  <div class="timeline-body">
+                    <ul>
+                      <li>
+                        <p>Automated department monthly meeting process by utilizing Python to gather information and speed up the process by weeks.</p>
+                      </li>
+                      <li>
+                        <p>Developed a web application utilizing flask and javascript.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+          </ul>
+      </div>
+      </div>
+
+      <!-- About me section -->
+      <div id="skill" class="container">
+        <h1 style="padding-bottom: 20px;padding-top: 40px;">Skills</h1>
+        <div class="row">
+          <!-- Skill sets 1 -->
+          <div class="col-xl-10 col-md-6 mb-4" style="margin: auto; margin-top: 30px">
+            <div class="card border-0 shadow">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0" style="font-size: 20px">Technical Skills</h5>
+                <br>
+                <span class="badge badge-primary" style="font-size: 17px"> Java </span>
+                <span class="badge badge-primary" style="font-size: 17px"> Python </span>
+                <span class="badge badge-primary" style="font-size: 17px"> C </span>
+                <span class="badge badge-primary" style="font-size: 17px"> Ruby </span>
+                <span class="badge badge-primary" style="font-size: 17px"> Ruby ob Rails </span>
+                <span class="badge badge-primary" style="font-size: 17px"> Assembly </span>
+                <span class="badge badge-primary" style="font-size: 17px"> JavaScript </span>
+                <span class="badge badge-primary" style="font-size: 17px"> HTML</span>
+                <h1></h1>
+                <span class="badge badge-primary" style="font-size: 17px"> Unix/Linux </span>
+                <span class="badge badge-primary" style="font-size: 17px"> MySql/MsSql </span>
+                <span class="badge badge-primary" style="font-size: 17px"> Git </span>
+                <span class="badge badge-primary" style="font-size: 17px"> Microsoft Office </span>
+                <span class="badge badge-primary" style="font-size: 17px"> React </span>
+                <span class="badge badge-primary" style="font-size: 17px"> Django </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--Project Section-->
+      <div id="project" class="container">
+        <h1 style="padding-bottom: 20px;padding-top: 40px;">Projects</h1>
+        <small>Projects can be found on my github, linked in the about me section</small>
+        <div class="container">
+          <!-- React -->
+          <div class="row">
+            <div class="col-md-8" style="margin: auto; margin-top: 30px">
+              <div class="card border-0 shadow">
+                <div class="card-body">
+                  <img src="Assets/whatToWatch.png" class="card-img-top"  height="auto" width="auto">
+                  <div class="card-body">
+                    <h5 class="card-title" style = "font-size: 20px" >What To Watch - A movie website powered by The Movie DB</h5>
+                    <hr/>
+                    <p>
+                      A movie recommendation website built by React and powered by the movie DB API
+                    </p>
+                    <p>
+                      Live demo <a href="https://what-to-watch-by-lhw.herokuapp.com/">here</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Android -->
+          <div class="row">
+            <div class="col-md-8" style="margin: auto; margin-top: 30px">
+              <div class="card border-0 shadow">
+                <div class="card-body">
+                  <div class="card-body">
+                    <h5 class="card-title" style = "font-size: 20px" >Android Mobile Application Design</h5>
+                    <hr/>
+                    <p>
+                      Designed and developed an android mobile application utilizing java.
+                      Using REST api calls to fetch sports events from school website.
+                      Application utilizes firebase cloud store for storage.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PlaceHolder -->
+          <div class="row">
+            <div class="col-md-8" style="margin: auto; margin-top: 30px">
+              <div class="card border-0 shadow">
+                <div class="card-body">
+                  <div class="card-body">
+                    <h5 class="card-title" style = "font-size: 20px" >Placeholder More to come</h5>
+                    <hr/>
+                    <p>
+                      Stay tuned
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
-  </div>
-</div>
 
   </body>
 </html>
